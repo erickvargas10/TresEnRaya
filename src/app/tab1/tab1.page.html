@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      TIK TAK TOE
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid class="board">
+  <ion-row>
+    <ion-col>
+      <!-- Expand -->
+<ion-button expand="block" id="1" class="button button-large button-positive" (click)="placeTile('1')"> </ion-button> 
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="2" class="button button-large button-positive" (click)="placeTile('2')"> </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="4" class="button button-large button-positive" (click)="placeTile('4')"> </ion-button>
+    </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col>
+      <ion-button expand="block" id="8" class="button button-large button-positive" (click)="placeTile('8')"> </ion-button>
+      
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="16" class="button button-large button-positive" (click)="placeTile('16')"> </ion-button>
+      
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="32" class="button button-large button-positive" (click)="placeTile('32')"> </ion-button>
+
+    </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col>
+      <ion-button expand="block" id="64" class="button button-large button-positive" (click)="placeTile('64')"> </ion-button>
+      
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="128" class="button button-large button-positive" (click)="placeTile('128')"> </ion-button>
+     
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" id="256" class="button button-large button-positive" (click)="placeTile('256')"> </ion-button>
+    </ion-col>
+</ion-row>
+</ion-grid>
+
+</ion-content>
